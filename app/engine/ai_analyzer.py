@@ -20,7 +20,7 @@ SYSTEM_INSTRUCTION = (
 
 async def analyze_rfp_text(cleaned_text: str) -> RfpAnalysis:
     """
-    Sends the pre-processed RFP text to Gemini 1.5 Pro and returns a structured Pydantic object.
+    Sends the pre-processed RFP text to Gemini 2.5 flash and returns a structured Pydantic object.
     """
     model = genai.GenerativeModel(
         model_name="gemini-2.5-flash",
