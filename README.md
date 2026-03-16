@@ -17,7 +17,7 @@ Optimized for Scale and Cost-Efficiency:
 
 **Token Economy:** The custom Rust module aggressively strips formatting noise and excessive whitespace. In benchmarks, this reduces the input size by ~3-5%, saving significant token costs at enterprise scale.
 
-**Risk Mitigation:** The engine is programmed to be "ruthless." It identifies hidden "traps" in tender documents—such as unrealistic deadlines or predatory liability clauses—preventing costly business mistakes.
+**Risk Mitigation:** The engine is programmed to be "ruthless." It identifies hidden "traps" in tender documents-such as unrealistic deadlines or predatory liability clauses-preventing costly business mistakes.
 
 **Long-term Savings:** By offloading pre-processing to Rust and optimizing the prompt-to-token ratio, the system significantly lowers the Total Cost of Ownership (TCO) compared to naive LLM implementations.
 
