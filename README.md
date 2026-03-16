@@ -71,3 +71,7 @@ Set your Gemini API Key as an environment variable (standard security practice):
         uvicorn app.main:app --reload
 
         Visit http://127.0.0.1:8000/docs to test the API via the interactive Swagger UI.
+
+# Contacts 
+ 
+ Upwork: https://www.upwork.com/freelancers/~010745b4d221a00300
