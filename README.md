@@ -45,23 +45,29 @@ PDF Core: pypdf
 
 # ⚙️ Installation & Setup
 1. Clone & Environment
-´´´ Bash
+
         git clone <https://github.com/ollyvets/ai_rfp_engine.git>
+
         cd ai_rfp_engine
+
         python -m venv .venv
+
         source .venv/bin/activate
+
         pip install -r requirements.txt
+
 2. Build the Rust Core
-´´´ Bash
         cd app/engine/rust_core
+
         maturin develop --release
+
         cd ../../..
+
 3. Configuration
 Set your Gemini API Key as an environment variable (standard security practice):
 
-´´´ Bash
         export GEMINI_API_KEY="your_api_key_here"
 4. Launch
-´´´ Bash
         uvicorn app.main:app --reload
+
         Visit http://127.0.0.1:8000/docs to test the API via the interactive Swagger UI.
