@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.pytest_cache/
+
+# Rust (наш Performance Bridge)
+app/engine/rust_core/target/
+**/*.rs.bk
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Project specific
+*.pdf
